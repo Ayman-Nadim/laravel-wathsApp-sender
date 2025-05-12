@@ -1,11 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
 
 Route::get('/', function () {
     return view('welcome');
-});
-
-Route::get('/test', function () {
-    return "hello";
 });
